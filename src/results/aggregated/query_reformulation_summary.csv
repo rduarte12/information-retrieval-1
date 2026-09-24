@@ -1,0 +1,11 @@
+query_id,estrategia,modelo,docs_em_comum_top10,docs_diferentes_top10
+31,Generalizacao (remove qualificador),Vetorial,9,1
+31,Generalizacao (remove qualificador),BM25,8,2
+167,Remocao de termos (compressao),Vetorial,8,2
+167,Remocao de termos (compressao),BM25,7,3
+145,Sinonimo (cylinders -> shells),Vetorial,3,7
+145,Sinonimo (cylinders -> shells),BM25,5,5
+100,Mais especifica (acrescimo de qualificadores),Vetorial,9,1
+100,Mais especifica (acrescimo de qualificadores),BM25,8,2
+50,Remocao de termos + generalizacao,Vetorial,5,5
+50,Remocao de termos + generalizacao,BM25,3,7

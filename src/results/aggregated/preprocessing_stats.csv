@@ -1,0 +1,5 @@
+config,avg_doc_len,vocab_size
+"{'remove_stopwords': False, 'stem': False}",170.83214285714286,9723
+"{'remove_stopwords': True, 'stem': False}",104.39,9605
+"{'remove_stopwords': False, 'stem': True}",170.83214285714286,7085
+"{'remove_stopwords': True, 'stem': True}",104.39,6975

@@ -1,0 +1,27 @@
+# --- Claude Code / ferramentas de IA / organização do projeto ---
+.claude/
+CLAUDE.md
+planning/
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# --- Dados baixados / cache local (o dataset é obtido via ir_datasets, não versionado) ---
+data/
+.ir_datasets/
+
+# --- Ambiente / segredos ---
+.env
+
+# --- SO / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
